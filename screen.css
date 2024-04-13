@@ -1,1 +1,146 @@
-/* Add screen styles below */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.left {
+    margin-left: 40px;
+}
+
+.username {
+    background-color: #ffffff;
+    width: 280px;
+    padding: 15px;
+    border-radius: 27px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    box-shadow: 0 0 25px -15px;
+}
+
+.username img {
+    width: 70px;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+.nav {
+    position: absolute;
+    list-style: none;
+    width: 305px;
+    background-color: #ffffff;
+    border-radius: 27px;
+    box-shadow: 0 0 20px -15px;
+}
+  
+.nav li { 
+    display: block; 
+    width: 283px;
+    margin-left: -30px;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.nav li:first-of-type {
+    margin-top: -12px;
+}
+  
+.nav li:last-of-type { 
+    border-bottom: none;
+    margin-bottom: -12px;
+}
+  
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.nav a:hover {
+    font-weight: 700;
+}
+
+.pages input {
+    padding: 15px;
+    border-radius: 30px;
+    width: 400px;
+    padding-left: 25px;
+}
+
+.pages a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.pages li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 15px;
+}
+
+.pages {
+    position: absolute;
+    top: 25px;
+    margin-left: 400px;
+}
+
+.main {
+    position: absolute;
+    top: 120px;
+    margin-left: 410px;
+}
+
+.images {
+    display: inline-block;
+    margin-top: 40px;
+    width: 1000px;
+}
+
+.posts {
+    margin-bottom: 60px;
+    float: left;
+    margin-right: 50px;
+}
+
+.likes {
+    margin-top: -35px;
+    text-align: right;
+}
+
+.posts img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+.activity {
+    position: absolute;
+    top: 15px;
+    margin-left: 1200px;
+    padding-left: 30px;
+    border-left: 1px solid #dbdbdb;
+    height: 95%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.active {
+    font-weight: 500;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
